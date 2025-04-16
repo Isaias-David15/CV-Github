@@ -3,53 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Isaias David Vitores - CV</title>
+  <title>CV Isaias David Vitores</title>
   <style>
     :root {
       --primary-color: #1f3c88;
       --accent-color: #f0a500;
-      --background-color: #f4f4f4;
-      --text-color: #333;
+      --background-color: #f9f9f9;
+      --text-color: #222;
     }
 
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--background-color);
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
+      background-color: var(--background-color);
       color: var(--text-color);
     }
 
     header {
       background-color: var(--primary-color);
       color: white;
-      padding: 2rem;
       text-align: center;
+      padding: 2rem 1rem;
     }
 
-    h1, h2 {
-      margin: 0.5rem 0;
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
     }
 
-    .container {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
-    .section-title {
+    h2.section-title {
       color: var(--accent-color);
       border-bottom: 2px solid var(--primary-color);
       padding-bottom: 0.3rem;
-      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
     }
 
     ul {
-      padding-left: 1.2rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.7rem;
     }
 
     .highlight {
@@ -58,15 +58,27 @@
     }
 
     footer {
-      text-align: center;
-      padding: 1rem;
       background-color: var(--primary-color);
       color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    .style-explanation {
+      background-color: #fff3cd;
+      border-left: 5px solid #f0a500;
+      padding: 1rem;
       margin-top: 2rem;
+    }
+
+    .style-explanation p {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Isaias David Vitores</h1>
     <p>Auxiliar Administrativo | Producción | Bodega</p>
@@ -74,63 +86,52 @@
   </header>
 
   <div class="container">
-    <section>
-      <h2 class="section-title">Perfil</h2>
-      <p>Soy una persona organizada y responsable, con experiencia en bodega, archivo y atención al cliente. Me destaco por el manejo de inventarios, soporte administrativo y habilidades en trabajo en equipo.</p>
-    </section>
+    <h2 class="section-title">Perfil</h2>
+    <p>Soy una persona organizada, proactiva y responsable, con experiencia en bodega, archivo y atención al cliente. Me destaco en manejo de inventarios, tareas administrativas y apoyo operativo en planta.</p>
 
-    <section>
-      <h2 class="section-title">Experiencia Laboral</h2>
-      <ul>
-        <li><span class="highlight">Archivador/Asistente Administrativo</span> – Surgalare S.A (Jul 2024 - Nov 2024)</li>
-        <li><span class="highlight">Auxiliar de Bodega</span> – Juan Marcet (Sep 2023)</li>
-        <li><span class="highlight">Auxiliar de Planta/Estibador</span> – Grupasa (May 2023 - Ago 2023)</li>
-        <li><span class="highlight">Auxiliar de Planta/Bodega</span> – Pancali S.A (Nov 2022 - Feb 2023)</li>
-        <li><span class="highlight">Auxiliar de Ventas y Bodega</span> – Confitería Marthita (Mar 2017 - Oct 2023)</li>
-      </ul>
-    </section>
+    <h2 class="section-title">Experiencia Laboral</h2>
+    <ul>
+      <li><span class="highlight">Archivador/Asistente Administrativo</span> – Surgalare S.A (Jul 2024 - Nov 2024)</li>
+      <li><span class="highlight">Auxiliar de Bodega</span> – Juan Marcet (Sep 2023)</li>
+      <li><span class="highlight">Auxiliar de Planta/Estibador</span> – Grupasa (May 2023 - Ago 2023)</li>
+      <li><span class="highlight">Auxiliar de Planta/Bodega</span> – Pancali S.A (Nov 2022 - Feb 2023)</li>
+      <li><span class="highlight">Auxiliar de Ventas y Bodega</span> – Confitería Marthita (Mar 2017 - Oct 2023)</li>
+    </ul>
 
-    <section>
-      <h2 class="section-title">Educación</h2>
-      <ul>
-        <li><span class="highlight">Ingeniería en Sistemas de Información</span> – Universidad Estatal de Guayaquil (Oct 2020 - Oct 2024)</li>
-        <li><span class="highlight">Bachiller en Aplicaciones Informáticas</span> – Unidad Educativa Pablo Hannibal Vela (2020)</li>
-      </ul>
-    </section>
+    <h2 class="section-title">Educación</h2>
+    <ul>
+      <li><span class="highlight">Ingeniería en Sistemas de Información</span> – Universidad Estatal de Guayaquil (2020 - 2024)</li>
+      <li><span class="highlight">Bachiller en Aplicaciones Informáticas</span> – U.E. Pablo Hannibal Vela (2020)</li>
+    </ul>
 
-    <section>
-      <h2 class="section-title">Habilidades</h2>
-      <ul>
-        <li>Organización de archivos físicos y digitales</li>
-        <li>Control de inventarios y logística</li>
-        <li>Atención al cliente y comunicación efectiva</li>
-        <li>Manejo básico de Office y Paquete Adobe</li>
-        <li>Diseño gráfico básico y edición de video</li>
-      </ul>
-    </section>
+    <h2 class="section-title">Habilidades</h2>
+    <ul>
+      <li>Control de inventarios y logística</li>
+      <li>Atención al cliente y comunicación efectiva</li>
+      <li>Manejo básico de Office y Adobe</li>
+      <li>Diseño gráfico básico y edición de video</li>
+      <li>Trabajo en equipo y solución de problemas</li>
+    </ul>
 
-    <section>
-      <h2 class="section-title">Cursos</h2>
-      <ul>
-        <li>Diseño Gráfico – Trynice Training Consulting (Feb - Abr 2024)</li>
-      </ul>
-    </section>
+    <h2 class="section-title">Cursos</h2>
+    <ul>
+      <li>Diseño Gráfico – Trynice Training Consulting (Feb - Abr 2024)</li>
+    </ul>
 
-    <section>
-      <h2 class="section-title">Estilos y Diseño</h2>
-      <p>Este CV fue diseñado usando colores personalizados con CSS:</p>
-      <ul>
-        <li><span class="highlight">--primary-color</span>: Azul fuerte para encabezados.</li>
-        <li><span class="highlight">--accent-color</span>: Amarillo dorado para resaltar secciones.</li>
-        <li><span class="highlight">--background-color</span>: Gris claro para el fondo.</li>
-        <li><span class="highlight">--text-color</span>: Gris oscuro para una buena lectura.</li>
-      </ul>
-      <p>Además, se usó una estructura clara, márgenes suaves y fuentes limpias para mantener la presentación profesional y atractiva.</p>
-    </section>
+    <div class="style-explanation">
+      <h2 class="section-title">🎨 Estilos Utilizados</h2>
+      <p><strong>Color principal (Azul):</strong> para encabezados y fondo del encabezado.</p>
+      <p><strong>Color de acento (Amarillo):</strong> para destacar títulos de sección.</p>
+      <p><strong>Fondo gris claro:</strong> para una apariencia limpia y moderna.</p>
+      <p><strong>Fuente profesional:</strong> 'Segoe UI' para legibilidad.</p>
+      <p><strong>Bordes y espaciado:</strong> para separación clara entre secciones.</p>
+    </div>
   </div>
 
   <footer>
     <p>© 2025 Isaias David Vitores</p>
   </footer>
+
 </body>
 </html>
+
