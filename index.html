@@ -10,70 +10,86 @@
       --accent-color: #f0a500;
       --background-color: #f9f9f9;
       --text-color: #222;
+      --border-color: #ccc;
     }
-
+  
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       background-color: var(--background-color);
       color: var(--text-color);
+      line-height: 1.6;
     }
-
+  
     header {
       background-color: var(--primary-color);
       color: white;
       text-align: center;
       padding: 2rem 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-
+  
     h1 {
       margin: 0;
-      font-size: 2.2rem;
+      font-size: 2.5rem;
     }
-
+  
     h2.section-title {
       color: var(--accent-color);
       border-bottom: 2px solid var(--primary-color);
       padding-bottom: 0.3rem;
       margin-top: 2rem;
+      font-size: 1.8rem;
     }
-
+  
     .container {
       max-width: 900px;
       margin: auto;
       padding: 2rem;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
     }
-
+  
     ul {
       padding-left: 1.5rem;
+      list-style-type: disc;
     }
-
+  
     li {
       margin-bottom: 0.7rem;
     }
-
+  
     .highlight {
       color: var(--primary-color);
       font-weight: bold;
     }
-
+  
     footer {
       background-color: var(--primary-color);
       color: white;
       text-align: center;
       padding: 1rem;
       margin-top: 3rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
     }
-
-    .style-explanation {
-      background-color: #fff3cd;
-      border-left: 5px solid #f0a500;
+  
+    .style-explanation, .style-explanation2 {
+      background-color: #f9f9f9;
+      border-left: 5px solid var(--accent-color);
       padding: 1rem;
       margin-top: 2rem;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     }
-
-    .style-explanation p {
+  
+    .style-explanation p, .style-explanation2 p {
       margin: 0.5rem 0;
+    }
+    
+    .style-explanation2 {
+      border-left-color: #28a745; /* Borde izquierdo verde */
     }
   </style>
 </head>
@@ -127,13 +143,28 @@
       <p><strong>Bordes y espaciado:</strong> para separación clara entre secciones.</p>
     </div>
     
-    <div>
-      <h2>Estilo css realizado</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui optio, sed et magni dignissimos eum. Itaque qui minus, soluta, fugiat alias nam odit numquam error, corporis ex facilis incidunt. Beatae!</p>
-
-
+    <div class="style-explanation2">
+      <h2>Estilos Utilizados</h2>
+      <p>Variables CSS: Colores definidos para facilitar el diseño: <br>
+        Azul oscuro (--primary-color) <br>
+        Amarillo (--accent-color) <br>
+        Gris claro (--background-color) <br> 
+        Color de texto (--text-color) <br> <br>
+        Tipografía: Fuente 'Segoe UI' para buena legibilidad. <br> <br>
+        
+        Estructura: <br>
+        Encabezado: Fondo azul oscuro, texto blanco, centrado. <br>
+        Títulos de Sección: Color amarillo con borde azul y margen superior. <br>
+        Contenedor: Máximo ancho de 900px, centrado con padding. <br>
+        
+        Listas: Padding a la izquierda y márgenes en elementos. <br> <br>
+        
+        Clases Especiales: <br>
+        .highlight: Texto destacado en azul. <br>
+        .style-explanation: Fondo amarillo claro con borde. <br>
+        .style-explanation2: Fondo verde claro con borde verde. <br>
+        Footer: Fondo azul oscuro, texto blanco, centrado.</p>
     </div>
-
 
   </div>
 
@@ -143,4 +174,3 @@
 
 </body>
 </html>
-
